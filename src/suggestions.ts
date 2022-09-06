@@ -48,6 +48,7 @@ const useSuggestions = (
         toBound: props.toBound,
         fromBound: props.fromBound,
         locationOptions: props.locationOptions,
+        restrict_value: true,
         count,
       };
 

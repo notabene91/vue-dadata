@@ -9,6 +9,7 @@ export interface SuggestionDto {
   toBound?: BoundsType;
   fromBound?: BoundsType;
   locationOptions?: LocationOptions;
+  restrict_value: boolean;
 }
 
 export interface SuggestionPayload {
